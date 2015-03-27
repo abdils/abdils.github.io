@@ -242,8 +242,8 @@ a:focus {
   left: 0;
   right: 0;
   border-radius: 0px;
-  border: 5px solid #FF4136;
-  box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
+  border: 5px solid #879476;
+  box-shadow: 10px 0px #678354, 10px 0px #87947F;
   animation: shadowSpin 1s ease-in-out infinite;
 }
 
@@ -324,6 +324,7 @@ hr {
 
 .intro .slogan {
 	text-align: center;
+	
 
 }
 
