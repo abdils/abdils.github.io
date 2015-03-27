@@ -29,8 +29,13 @@ h6 {
     letter-spacing: 1px;
 }
 
+h3{
+	color:#678354;
+	}
 	
-
+h3 span{
+	color:#036;
+	}
 p {
     margin: 0 0 20px;
     font-size: 16px;
@@ -310,6 +315,7 @@ hr {
 	position:relative;
 	
 	background: url(../img/bg2.jpg) no-repeat top center;
+	background-size:auto;
 }
 
 #intro.intro {
@@ -366,10 +372,27 @@ hr {
 }
 
 .alexbox-left{
-	width:1270px;
+	width:1300px;
 	padding-left:155px;
 	
 	}
+	
+	
+.team boxed-grey:hover
+{
+		background-color:#309;
+		}
+
+.col-xs-6 col-sm-3 col-md-3:hover{
+	
+	background-color:#309;
+	}
+
+.inner:hover{
+		background-color:#E0E0E0;
+
+	}
+
 
 .team h5 {
 	margin-bottom: 10px;
@@ -532,6 +555,9 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 footer {
 	text-align: center;
 	padding: 50px 0 ;
+	background-image:url(../img/bg3foot.jpg);
+	repeat:no-repeat;
+	background-size:cover;
 	
 }
 
@@ -771,8 +797,13 @@ Parallax
 	
 	.boxed-grey {
 		margin-bottom: 30px;
+		margin-left:30px;
 	}
-
+.alexbox-left{
+	width:130px;
+	padding-left:10px;
+	margin-left:25px;
+	}
 	
 }
 
@@ -794,6 +825,7 @@ Parallax
 		width: 40px;
 		height: 40px;
 		margin-top: 10px;
+		
 		padding: 7px 0;
 		border: 2px solid #fff;
 		border-radius: 50%;
@@ -801,12 +833,62 @@ Parallax
 		
 	}
 	
+	.boxed-grey {
+	background: #fff;
+	padding: 20px;
+	
 }
+
+.alexbox-left-480{
+	width:230px;
+	display:block;
+  	
+	position:relative;
+  clear:both;
+  float: none;
+	}
+	
+.alexbox-mid-480{
+	
+  float: none;
+    
+	}	
+
 
 
 
 footer .container .row {
 
 	}
+	
+	
+	/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+	
+	
 	
 	
