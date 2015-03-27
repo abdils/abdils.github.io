@@ -371,9 +371,10 @@ hr {
 	
 }
 
-.alexbox-left{
-	width:1300px;
+.alexbox-left-480{
+	width:autopx;
 	padding-left:155px;
+
 	
 	}
 	
@@ -840,12 +841,9 @@ Parallax
 }
 
 .alexbox-left-480{
-	width:230px;
-	display:block;
-  	
-	position:relative;
+	width:autopx;
   clear:both;
-  float: none;
+  float: left;
 	}
 	
 .alexbox-mid-480{
