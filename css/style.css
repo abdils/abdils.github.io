@@ -497,7 +497,9 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 .widget-contact {
-	text-align: left;
+padding:10px;
+	margin:auto o;
+	font-size:24px;
 }
 
 
