@@ -1,0 +1,57 @@
+.info {
+    padding-top: 50px;
+    font-size: 1.5em;
+    font-family: 'Droid Sans', sans-serif;
+    height: auto;
+    min-height: 50px;
+    text-align: center;
+
+}
+
+.info a{
+
+   color:black;
+    font-weight:bold;
+    text-decoration:none;
+    
+}
+
+
+.info h2 {
+    font-size: 1.0em;
+    font-weight:lighter;
+    padding:10px;
+}
+
+h3{
+font-size:.8em;
+    font-weight:lighter;
+    color:dodgerblue;
+    
+    padding:10px;
+   
+
+}
+
+
+}
+img {
+    padding-top: 60px;
+    margin: auto;
+}
+@media (max-width: 600px) {
+    .info {
+        font-size: 1.2em;
+        transition: font-size .24s;
+    }
+    
+    .info h2 {
+        font-size: .8em;
+        transition: font-size .24s;
+    }
+    h3{
+     font-size: .6em;
+        transition: font-size .24s;
+    }
+    
+}
