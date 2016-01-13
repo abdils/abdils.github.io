@@ -1,18 +1,28 @@
 .about p {
 margin:auto;
-   padding: 50px 30px 40px 30px;
+   padding: 35px 30px 20px 30px;
 font-size:1.5em;
     font-family: 'Droid Sans', sans-serif;
     text-align: center;
 }
 
 img {
-padding-top:60px;
-    height:500px;
-    width:800px;
-    margin:auto;
+padding-top:20px;
+   height:auto;
+    width:30%;
+    padding-left:5px;
+    padding-right:5px;
+    position:relative;
+    display:inline-block;
     
+}
 
+.about_img {
+
+    position:relative;
+    width:100%;
+    padding-bottom:02px;
+    
 }
 
 @media (max-width: 600px) {
@@ -22,6 +32,24 @@ padding-top:60px;
         font-size:1.2em;
         transition:font-size .24s;
     }
+    
+    img {
+padding-top:20px;
+   height:auto;
+    width:30%;
+    padding-left:5px;
+    padding-right:5px;
+        clear:both;
+     
+}
+
+.about_img {
+    position:relative;
+    width:100%;
+    padding-bottom:20px;
+    float:left; 
+    
+}
     
 }
 
@@ -48,14 +76,6 @@ padding: 10px 30px 20px 30px;
 color:darkslateblue;
 }
 
-img{
-height:auto;
-    width:40%;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-    
-}
 
 .skills {
 
