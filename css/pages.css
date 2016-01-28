@@ -15,8 +15,8 @@ width: 80%;
 }
 
 .small-img{
-      padding-top: 20px;
-    padding-bottom:10px;
+      padding-top: 0px;
+    padding-bottom:0px;
       margin-left: auto;
     margin-right: auto; 
     display:block;
@@ -52,7 +52,19 @@ h2 {
     margin-right: auto; 
         text-align:center;
         font-family: 'Droid Sans', sans-serif;
-    padding:30px;
+    padding:25px 30px 10px 30px;
+
+
+}
+
+h3 {
+ display: block;
+    margin-left: auto;
+    margin-right: auto; 
+        text-align:center;
+        font-family: 'Droid Sans', sans-serif;
+    padding:10px 30px 10px 30px;
+    font-weight: lighter;
 
 
 }
