@@ -24,6 +24,22 @@ padding-top:20px;
     
 }
 
+.resume  {
+margin:auto;
+   padding: 30px 30px 10px 30px;
+font-size:2.1em;
+font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+     text-decoration: none;
+    
+
+}
+
+.resume a {
+
+text-decoration: none;
+}
+
 p span {
 font-size: 0.8em;
     font-style: italic;
@@ -47,6 +63,16 @@ padding-top:20px;
         clear:both;
      
 }
+
+    
+.resume {
+transition:ease .24s;
+font-size:1.4em;
+
+
+}
+    
+    
 
 .about_img {
     position:relative;
@@ -103,4 +129,11 @@ color:darkred;
 display:none;
      
 }
+    .resume {
+transition:ease .24s;
+font-size:1.0em;
+
+}
+    
+    
 }
